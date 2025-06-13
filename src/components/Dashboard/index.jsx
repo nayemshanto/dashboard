@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import ToadysSells from "./ToadysSells";
 
 const Dashboard = () => {
   return (
-    <div className="flex items-center justify-center h-screen text-4xl">Dashboard</div>
-  )
-}
+    <div >
+      <ToadysSells/>
+      
+    </div>
+  );
+};
 
-export default Dashboard
+export default Dashboard;

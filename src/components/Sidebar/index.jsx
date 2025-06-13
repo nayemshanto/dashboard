@@ -52,7 +52,7 @@ const SideBar = ({ toggleSidebar }) => {
   const [isActive, setIsActive] = useState(0);
 
   return (
-    <div className="bg-primary1 border-r border-primary2 text-white h-screen w-44 p-5 transition-all">
+    <div className=" bg-primary1 border-r border-primary2 text-white h-screen w-44 p-5 transition-all">
       <ul className="space-y-3 mt-5 md:mt-0">
         {SidebarItem.map((item, idx) => { 
           return (
