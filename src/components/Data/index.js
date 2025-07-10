@@ -37,3 +37,30 @@ export const salesData = [
         color:"#20AEF3"
     },
 ]
+
+export const TopProductsData = [
+    {
+        id:1,
+        name:'Home Decor Range',
+        priority: 90,
+        color:'#FEB95A'
+    },
+    {
+        id:2,
+        name:'Disney Princess Dress',
+        priority: 80,
+        color:'#A9dfd8'
+    },
+    {
+        id:3,
+        name:'Bathroom Essenials',
+        priority: 60,
+        color:'#28aeF3'
+    },
+    {
+        id:4,
+        name:'Apple Smartwatch',
+        priority: 40,
+        color:'#F2c8ed'
+    },
+]
