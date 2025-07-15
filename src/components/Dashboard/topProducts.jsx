@@ -55,27 +55,28 @@ const Customerfulfilment = () => {
   return (
     <div className="w-full p-4">
       <ComponentHeader title={"Customer Fulfilment"} />
-      <div className="w-full">
+
+      <div className="w-full flex items-center justify-center mx-auto">
         <ChartComponent />
-        <div className="flex items-center justify-between pt-2 mt-2 border-t border-grayText/20">
-          <div>
-            <button className="flex items-center text-[10px] font-medium lg:justify-center gap-2 text-grayText w-full">
-              <span className="h-2 w-2 rounded-full bg-secondary"></span>
-              Last Month
-            </button>
-            <p className="text-center text-2.5 font-medium text-white/70">
-              $4502
-            </p>
-          </div>
-          <div>
-            <button className="flex items-center text-[10px] font-medium lg:justify-center gap-2 text-grayText w-full">
-              <span className="h-2 w-2 rounded-full bg-secondary"></span>
-              This Month
-            </button>
-            <p className="text-center text-2.5 font-medium text-white/70">
-              $3501
-            </p>
-          </div>
+      </div>
+      <div className="flex items-center justify-between pt-2 mt-2 border-t border-grayText/20">
+        <div>
+          <button className="flex items-center text-[10px] font-medium lg:justify-center gap-2 text-grayText w-full">
+            <span className="h-2 w-2 rounded-full bg-secondary"></span>
+            Last Month
+          </button>
+          <p className="text-center text-2.5 font-medium text-white/70">
+            $4502
+          </p>
+        </div>
+        <div>
+          <button className="flex items-center text-[10px] font-medium lg:justify-center gap-2 text-grayText w-full">
+            <span className="h-2 w-2 rounded-full bg-secondary"></span>
+            This Month
+          </button>
+          <p className="text-center text-2.5 font-medium text-white/70">
+            $3501
+          </p>
         </div>
       </div>
     </div>
@@ -90,7 +91,7 @@ const TopProducts = () => {
           <ProductList />
         </div>
         <div className="flex-[0.7] lg:flex-[0.5] bg-primary2 rounded-md">
-          <Customerfulfilment/>
+          <Customerfulfilment />
         </div>
       </WraperDiv>
     </div>
